@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios LocalStorage</title>
+</head>
+<body>
+<div>
+    <label for="title">Nombre</label>
+    <input 
+    type="text"
+    class="form-control"
+    id="nombreInput"
+    autocomplete="off">
+</div>
+<div>
+    <label for="title">Apellido</label>
+    <input 
+    type="text"
+    class="form-control"
+    id="apellidoInput"
+    autocomplete="off">
+</div>
+    <button onclick="agregarUsuarios ()">Agregar info</button>
+    <button onclick="mostrarUsuarios ()">Mostrar info</button>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+        </tr>
+    </thead>
+    <tbody id="cuerpoTabla"></tbody>
+</table>
+
+<script src="../js/EjerciciosLocalStorage.js"></script>
+</body>
+</html>
